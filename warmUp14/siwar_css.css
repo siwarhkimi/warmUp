@@ -1,0 +1,27 @@
+body {
+    background-color: blue;
+}
+
+#button1 {
+font-family: Arial, Helvetica, sans-serif;
+background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  
+
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+#button2 {
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+footer {
+    color: crimson;
+}
