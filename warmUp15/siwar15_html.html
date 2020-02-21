@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+
+    <input id="bb" type="text"><br>
+    <button>Click</button>
+
+    <ul id="list">
+
+    </ul>
+    <link rel="stylesheet" href="siwar15_css.css">
+    <script src="siwar15_js.js"></script>
+    <script src='https://code.jquery.com/jquery-2.2.4.js'></script>
+    <script>
+        $("button").click(function () {
+            var $newInput = $("#bb").val()
+            $('#list').append($newInput)
+        })
+
+
+    </script>
+</body>
+
+</html>
